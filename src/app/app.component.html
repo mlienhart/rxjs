@@ -1,1 +1,7 @@
-{{ title }}
+<div>
+    {{ a$ | async | json}}
+</div>
+------------
+<div *ngFor="let x of a$ | async">
+    id: {{ x }}
+</div>
