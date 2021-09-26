@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { of } from 'rxjs';
+import { from, of } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-operators',
@@ -15,5 +16,14 @@ export class OperatorsComponent implements OnInit {
 
 }
 
-let a = of([1, 2, 3]);
-a.subscribe(x => console.log("result:", x));
+of(1, 2, 3)
+  .pipe(map(x => x * x))
+  .subscribe(x => console.log("of value:", x));
+
+of([1, 2, 3])
+  .pipe(map(x => x.map(x => x * x)))
+  .subscribe(x => console.log("array:", x));
+
+from([1, 2, 3])
+  .pipe(map(x => x * x))
+  .subscribe(x => console.log("from falue:", x));
