@@ -7,5 +7,4 @@ import { Observable, of } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  a$: Observable<number[]> = of([1, 2, 3]);
 }
