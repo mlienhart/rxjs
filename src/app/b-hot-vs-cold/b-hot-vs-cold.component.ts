@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { share, shareReplay, publish } from 'rxjs/operators';
+import { shareReplay, publish } from 'rxjs/operators';
 
 @Component({
   selector: 'app-b-hot-vs-cold',
