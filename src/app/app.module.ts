@@ -7,6 +7,7 @@ import { BHotVsColdComponent } from './b-hot-vs-cold/b-hot-vs-cold.component';
 import { CSubjectsComponent } from './c-subjects/c-subjects.component';
 import { DOperatorsComponent } from './d-operators/d-operators.component';
 import { EOperatorsComponent } from './e-operators/e-operators.component';
+import { FBackpressureComponent } from './f-backpressure/f-backpressure.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { EOperatorsComponent } from './e-operators/e-operators.component';
     CSubjectsComponent,
     DOperatorsComponent,
     EOperatorsComponent,
+    FBackpressureComponent,
   ],
   imports: [
     BrowserModule
