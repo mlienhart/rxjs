@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EOperatorsComponent } from './e-operators.component';
+import { ETapComponent } from './e-tap.component';
 
-describe('EOperatorsComponent', () => {
-  let component: EOperatorsComponent;
-  let fixture: ComponentFixture<EOperatorsComponent>;
+describe('ETapComponent', () => {
+  let component: ETapComponent;
+  let fixture: ComponentFixture<ETapComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EOperatorsComponent ]
+      declarations: [ ETapComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EOperatorsComponent);
+    fixture = TestBed.createComponent(ETapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

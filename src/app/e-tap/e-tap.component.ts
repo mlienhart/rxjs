@@ -4,10 +4,10 @@ import { tap, map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-e-operators',
-  templateUrl: './e-operators.component.html',
-  styleUrls: ['./e-operators.component.css']
+  templateUrl: './e-tap.component.html',
+  styleUrls: ['./e-tap.component.css']
 })
-export class EOperatorsComponent implements OnInit {
+export class ETapComponent implements OnInit {
 
   constructor() { }
 
