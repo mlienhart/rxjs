@@ -16,18 +16,18 @@ export class GSwitchMapComponent implements OnInit {
 
 }
 
-const fetchOrders = async (userId: number) => {
-  return `${userId}'s order data`
-}
+// const fetchOrders = async (userId: number) => {
+//   return `${userId}'s order data`
+// }
 
-const user$ = of({ uid: Math.random() })
+// const user$ = of({ uid: Math.random() })
 
-const orders$ = user$.pipe(
-  switchMap(user => {
-    return fetchOrders(user.uid);
-  })
-)
+// const orders$ = user$.pipe(
+//   switchMap(user => {
+//     return fetchOrders(user.uid);
+//   })
+// )
 
-user$.subscribe(console.log);
+// user$.subscribe(console.log);
 
-orders$.subscribe(console.log);
+// orders$.subscribe(console.log);
