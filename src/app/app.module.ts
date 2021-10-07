@@ -8,6 +8,7 @@ import { CSubjectsComponent } from './c-subjects/c-subjects.component';
 import { DOperatorsComponent } from './d-operators/d-operators.component';
 import { EOperatorsComponent } from './e-operators/e-operators.component';
 import { FBackpressureComponent } from './f-backpressure/f-backpressure.component';
+import { GSwitchMapComponent } from './g-switch-map/g-switch-map.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FBackpressureComponent } from './f-backpressure/f-backpressure.componen
     DOperatorsComponent,
     EOperatorsComponent,
     FBackpressureComponent,
+    GSwitchMapComponent,
   ],
   imports: [
     BrowserModule
