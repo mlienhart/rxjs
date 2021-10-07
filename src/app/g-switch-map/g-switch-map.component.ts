@@ -16,7 +16,7 @@ export class GSwitchMapComponent implements OnInit {
 
 }
 
-const fetchOrders = async (userId) => {
+const fetchOrders = async (userId: number) => {
   return `${userId}'s order data`
 }
 
