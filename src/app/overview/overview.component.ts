@@ -16,12 +16,12 @@ export class OverviewComponent implements OnInit {
 }
 
 // streams are like water pipes
-const warmUp = (water: string) => `${water}-warm`;
-const stream$ = of("water");
-const waterPipe$ = stream$
-  .pipe(
-    tap(() => console.log("release air")),
-    filter((water) => water === "water"),
-    map((water) => warmUp(water)))
-  .subscribe(water => console.log("take shower!", water));
-waterPipe$.unsubscribe();
+// const warmUp = (water: string) => `${water}-warm`;
+// const stream$ = of("water");
+// const waterPipe$ = stream$
+//   .pipe(
+//     tap(() => console.log("release air")),
+//     filter((water) => water === "water"),
+//     map((water) => warmUp(water)))
+//   .subscribe(water => console.log("take shower!", water));
+// waterPipe$.unsubscribe();
