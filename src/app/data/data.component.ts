@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { of, Observable } from 'rxjs';
-import { switchMap, map } from 'rxjs/operators';
+import { switchMap, map, filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-data',
@@ -26,6 +26,7 @@ const secondList$: Observable<OriginalItem[]> = of([
 ]);
 
 const mappedList$: Observable<MappedItem[]> = firstList$
+  .pipe(filter((data) => data.length > 0))
   .pipe(
     switchMap((firstList) =>
       secondList$.pipe(
