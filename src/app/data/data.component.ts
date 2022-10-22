@@ -29,7 +29,7 @@ const mappedList$: Observable<MappedItem[]> = firstList$
   .pipe(
     switchMap((firstList) =>
       secondList$.pipe(
-        map((data) => data.filter((item) => item.id < firstList[0].id))
+        map((data) => data.filter((x) => x.id < firstList[0].id))
       )
     )
   )
