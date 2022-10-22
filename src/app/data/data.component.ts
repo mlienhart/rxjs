@@ -8,12 +8,9 @@ import { switchMap, map, filter } from 'rxjs/operators';
   styleUrls: ['./data.component.css']
 })
 export class DataComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 const firstList$: Observable<OriginalItem[]> = of([
