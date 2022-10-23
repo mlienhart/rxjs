@@ -2,16 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { OverviewComponent } from './overview/overview.component';
-import { DurumComponent } from './durum/durum.component';
-import { DataComponent } from './data/data.component';
+import { OfComponent } from './of/of.component';
+import { MapComponent } from './map/map.component';
+import { FilterComponent } from './filter/filter.component';
+import { SwitchmapComponent } from './switchmap/switchmap.component';
+import { CombinelatestComponent } from './combinelatest/combinelatest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OverviewComponent,
-    DurumComponent,
-    DataComponent,
+    OfComponent,
+    MapComponent,
+    FilterComponent,
+    SwitchmapComponent,
+    CombinelatestComponent,
   ],
   imports: [
     BrowserModule

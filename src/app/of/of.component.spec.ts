@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DurumComponent } from './durum.component';
+import { OfComponent } from './of.component';
 
-describe('DurumComponent', () => {
-  let component: DurumComponent;
-  let fixture: ComponentFixture<DurumComponent>;
+describe('OfComponent', () => {
+  let component: OfComponent;
+  let fixture: ComponentFixture<OfComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [DurumComponent]
+      declarations: [ OfComponent ]
     })
-      .compileComponents();
+    .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DurumComponent);
+    fixture = TestBed.createComponent(OfComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
