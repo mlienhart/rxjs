@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { combineLatest, Observable, of } from 'rxjs';
-import { filter, switchMap, map } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
+import { switchMap, map } from 'rxjs/operators';
 import { OriginalItem, MappedItem } from '../interfaces';
 
 @Component({
@@ -9,12 +9,9 @@ import { OriginalItem, MappedItem } from '../interfaces';
   styleUrls: ['./switchmap.component.css']
 })
 export class SwitchmapComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 // const firstList$: Observable<OriginalItem[]> = of([

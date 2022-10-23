@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, of, combineLatest } from 'rxjs';
-import { filter, switchMap, map } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { OriginalItem, MappedItem } from '../interfaces';
 
 @Component({
@@ -9,12 +9,9 @@ import { OriginalItem, MappedItem } from '../interfaces';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 // const firstList$: Observable<OriginalItem[]> = of([

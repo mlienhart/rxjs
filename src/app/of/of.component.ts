@@ -8,12 +8,9 @@ import { OriginalItem } from '../interfaces';
   styleUrls: ['./of.component.css']
 })
 export class OfComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 // const firstList$: Observable<OriginalItem[]> = of([

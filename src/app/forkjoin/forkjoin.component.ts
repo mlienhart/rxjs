@@ -9,12 +9,9 @@ import { OriginalItem, MappedItem } from '../interfaces';
   styleUrls: ['./forkjoin.component.css']
 })
 export class ForkjoinComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 // const firstList$: Observable<OriginalItem[]> = of([

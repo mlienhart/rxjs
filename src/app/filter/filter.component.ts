@@ -9,12 +9,9 @@ import { OriginalItem } from '../interfaces';
   styleUrls: ['./filter.component.css']
 })
 export class FilterComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 // const firstList$: Observable<OriginalItem[]> = of([

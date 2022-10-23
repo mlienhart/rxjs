@@ -9,12 +9,9 @@ import { OriginalItem, MappedItem } from '../interfaces';
   styleUrls: ['./combinelatest.component.css']
 })
 export class CombinelatestComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }
 
 const firstList$: Observable<OriginalItem[]> = of([
