@@ -3,7 +3,7 @@ import { Observable, of } from 'rxjs';
 import { OriginalItem } from '../interfaces';
 
 @Component({
-  selector: 'of',
+  selector: 'app-of',
   templateUrl: './of.component.html',
   styleUrls: ['./of.component.css']
 })
