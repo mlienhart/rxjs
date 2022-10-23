@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SwitchmapComponent } from './switchmap.component';
+import { ForkjoinComponent } from './forkjoin.component';
 
-describe('SwitchmapComponent', () => {
-  let component: SwitchmapComponent;
-  let fixture: ComponentFixture<SwitchmapComponent>;
+describe('ForkjoinComponent', () => {
+  let component: ForkjoinComponent;
+  let fixture: ComponentFixture<ForkjoinComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [SwitchmapComponent]
+      declarations: [ ForkjoinComponent ]
     })
-      .compileComponents();
+    .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SwitchmapComponent);
+    fixture = TestBed.createComponent(ForkjoinComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

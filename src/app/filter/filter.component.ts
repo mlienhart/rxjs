@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { filter, map } from 'rxjs/operators';
-import { OriginalItem, MappedItem } from '../interfaces';
+import { filter } from 'rxjs/operators';
+import { OriginalItem } from '../interfaces';
 
 @Component({
   selector: 'app-filter',

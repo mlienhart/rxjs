@@ -25,7 +25,7 @@ export class MapComponent implements OnInit {
 // const mappedList$: Observable<MappedItem[]> = firstList$.pipe(
 //   map((data) =>
 //     data
-//       .map((x) => <MappedItem>({ code: x.id, label: x.name }))
+//       .map((x) => <MappedItem>({ code: x.id * 100, label: x.name.toLocaleUpperCase() }))
 //       .sort((a, b) => a.code - b.code)
 //   )
 // )

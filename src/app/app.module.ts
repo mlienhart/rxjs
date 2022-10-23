@@ -7,6 +7,7 @@ import { MapComponent } from './map/map.component';
 import { FilterComponent } from './filter/filter.component';
 import { SwitchmapComponent } from './switchmap/switchmap.component';
 import { CombinelatestComponent } from './combinelatest/combinelatest.component';
+import { ForkjoinComponent } from './forkjoin/forkjoin.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CombinelatestComponent } from './combinelatest/combinelatest.component'
     FilterComponent,
     SwitchmapComponent,
     CombinelatestComponent,
+    ForkjoinComponent,
   ],
   imports: [
     BrowserModule

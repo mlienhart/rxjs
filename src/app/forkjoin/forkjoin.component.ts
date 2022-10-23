@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, of, combineLatest } from 'rxjs';
+import { Observable, of, forkJoin } from 'rxjs';
 import { filter, switchMap, map } from 'rxjs/operators';
 import { OriginalItem, MappedItem } from '../interfaces';
 
 @Component({
-  selector: 'app-combinelatest',
-  templateUrl: './combinelatest.component.html',
-  styleUrls: ['./combinelatest.component.css']
+  selector: 'app-forkjoin',
+  templateUrl: './forkjoin.component.html',
+  styleUrls: ['./forkjoin.component.css']
 })
-export class CombinelatestComponent implements OnInit {
+export class ForkjoinComponent implements OnInit {
 
   constructor() { }
 
@@ -16,7 +16,6 @@ export class CombinelatestComponent implements OnInit {
   }
 
 }
-
 // const firstList$: Observable<OriginalItem[]> = of([
 //   { id: 4, name: "four" }
 // ]);
@@ -34,7 +33,7 @@ export class CombinelatestComponent implements OnInit {
 //   .pipe(filter((data) => data.length > 0))
 //   .pipe(
 //     switchMap((firstList) =>
-//       combineLatest([
+//       forkJoin([
 //         secondList$.pipe(
 //           map((data) => data.filter((x) => x.id < firstList[0].id))
 //         ),
