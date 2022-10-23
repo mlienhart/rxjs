@@ -16,6 +16,7 @@ export class ForkjoinComponent implements OnInit {
   }
 
 }
+
 // const firstList$: Observable<OriginalItem[]> = of([
 //   { id: 4, name: "four" }
 // ]);

@@ -8,9 +8,9 @@ describe('ForkjoinComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ForkjoinComponent ]
+      declarations: [ForkjoinComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

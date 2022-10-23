@@ -8,9 +8,9 @@ describe('CombinelatestComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CombinelatestComponent ]
+      declarations: [CombinelatestComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
