@@ -8,6 +8,7 @@ import { FilterComponent } from './filter/filter.component';
 import { SwitchmapComponent } from './switchmap/switchmap.component';
 import { CombinelatestComponent } from './combinelatest/combinelatest.component';
 import { ForkjoinComponent } from './forkjoin/forkjoin.component';
+import { TapComponent } from './tap/tap.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ForkjoinComponent } from './forkjoin/forkjoin.component';
     SwitchmapComponent,
     CombinelatestComponent,
     ForkjoinComponent,
+    TapComponent,
   ],
   imports: [
     BrowserModule
