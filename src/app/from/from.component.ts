@@ -14,9 +14,9 @@ export class FromComponent implements OnInit {
   ngOnInit(): void { }
 }
 
-const firstList$: Observable<OriginalItem> = from([
-  { id: 4, name: "four" },
-  { id: 5, name: "five" },
-]);
+// const firstList$: Observable<OriginalItem> = from([
+//   { id: 4, name: "four" },
+//   { id: 5, name: "five" },
+// ]);
 
-firstList$.subscribe(x => console.log(x));
+// firstList$.subscribe(x => console.log(x));
