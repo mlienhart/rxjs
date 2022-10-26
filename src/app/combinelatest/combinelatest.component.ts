@@ -45,6 +45,6 @@ const mappedList$: Observable<MappedItem[]> = firstList$
         .map((x) => <MappedItem>({ code: x.id, label: x.name }))
         .sort((a, b) => a.code - b.code)
     )
-  )
+  );
 
 mappedList$.subscribe(x => console.log(x));
