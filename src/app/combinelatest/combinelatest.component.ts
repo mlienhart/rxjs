@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of, combineLatest } from 'rxjs';
-import { filter, switchMap, map } from 'rxjs/operators';
+import { filter, switchMap, map, tap } from 'rxjs/operators';
 import { OriginalItem, MappedItem } from '../interfaces';
 
 @Component({
@@ -38,8 +38,10 @@ const mappedList$: Observable<MappedItem[]> = firstList$
         thirdList$
       ])
     ),
+    tap(x => console.log(x)),
     map(([second, third]) =>
       [...second, ...third]),
+    tap(x => console.log(x)),
     map((data) =>
       data
         .map((x) => <MappedItem>({ code: x.id, label: x.name }))
