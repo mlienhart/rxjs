@@ -28,8 +28,8 @@ export class ForkjoinComponent implements OnInit {
 // ]);
 
 // const mappedList$: Observable<MappedItem[]> = firstList$
-//   .pipe(filter((data) => data.length > 0))
 //   .pipe(
+//     filter((data) => data.length > 0),
 //     switchMap((firstList) =>
 //       forkJoin([
 //         secondList$.pipe(
