@@ -25,6 +25,6 @@ export class MapComponent implements OnInit {
 //       .map((x) => <MappedItem>({ code: x.id * 100, label: x.name.toLocaleUpperCase() }))
 //       .sort((a, b) => a.code - b.code)
 //   )
-// )
+// );
 
 // mappedList$.subscribe(x => console.log(x));
