@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { OfComponent } from './of/of.component';
 import { MapComponent } from './map/map.component';
@@ -10,6 +9,7 @@ import { CombinelatestComponent } from './combinelatest/combinelatest.component'
 import { ForkjoinComponent } from './forkjoin/forkjoin.component';
 import { TapComponent } from './tap/tap.component';
 import { FromComponent } from './from/from.component';
+import { ConcatmapComponent } from './concatmap/concatmap.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { FromComponent } from './from/from.component';
     ForkjoinComponent,
     TapComponent,
     FromComponent,
+    ConcatmapComponent,
   ],
   imports: [
     BrowserModule
