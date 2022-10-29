@@ -25,13 +25,11 @@ export class SwitchmapComponent implements OnInit {
 
 // const mappedList$: Observable<MappedItem[]> = firstList$
 //   .pipe(
-//     switchMap((firstList) =>
+//     switchMap((first) =>
 //       secondList$.pipe(
-//         map((data) => data.filter((x) => x.id < firstList[0].id))
+//         map((data) => data.filter((x) => x.id < first[0].id))
 //       )
-//     )
-//   )
-//   .pipe(
+//     ),
 //     map((data) =>
 //       data
 //         .map((x) => <MappedItem>({ code: x.id, label: x.name }))
