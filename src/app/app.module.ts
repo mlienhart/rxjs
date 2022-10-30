@@ -10,6 +10,7 @@ import { ForkjoinComponent } from './forkjoin/forkjoin.component';
 import { TapComponent } from './tap/tap.component';
 import { FromComponent } from './from/from.component';
 import { ConcatmapComponent } from './concatmap/concatmap.component';
+import { AjaxComponent } from './ajax/ajax.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ConcatmapComponent } from './concatmap/concatmap.component';
     TapComponent,
     FromComponent,
     ConcatmapComponent,
+    AjaxComponent,
   ],
   imports: [
     BrowserModule
