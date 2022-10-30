@@ -11,6 +11,7 @@ import { TapComponent } from './tap/tap.component';
 import { FromComponent } from './from/from.component';
 import { ConcatmapComponent } from './concatmap/concatmap.component';
 import { AjaxComponent } from './ajax/ajax.component';
+import { DelayComponent } from './delay/delay.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { AjaxComponent } from './ajax/ajax.component';
     FromComponent,
     ConcatmapComponent,
     AjaxComponent,
+    DelayComponent,
   ],
   imports: [
     BrowserModule
