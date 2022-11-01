@@ -14,6 +14,7 @@ import { AjaxComponent } from './ajax/ajax.component';
 import { DelayComponent } from './delay/delay.component';
 import { ObservableComponent } from './observable/observable.component';
 import { FromeventComponent } from './fromevent/fromevent.component';
+import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FromeventComponent } from './fromevent/fromevent.component';
     DelayComponent,
     ObservableComponent,
     FromeventComponent,
+    DebouncetimeComponent,
   ],
   imports: [
     BrowserModule
