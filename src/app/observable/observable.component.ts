@@ -17,7 +17,7 @@ export class ObservableComponent implements OnInit {
   }
 
   handleError(error: any) {
-    console.log("error: ", error);
+    console.log(`error: ${error}`);
     return Observable.throw(error);
   }
 
