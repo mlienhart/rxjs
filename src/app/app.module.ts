@@ -13,6 +13,7 @@ import { ConcatmapComponent } from './concatmap/concatmap.component';
 import { AjaxComponent } from './ajax/ajax.component';
 import { DelayComponent } from './delay/delay.component';
 import { ObservableComponent } from './observable/observable.component';
+import { FromeventComponent } from './fromevent/fromevent.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ObservableComponent } from './observable/observable.component';
     AjaxComponent,
     DelayComponent,
     ObservableComponent,
+    FromeventComponent,
   ],
   imports: [
     BrowserModule
