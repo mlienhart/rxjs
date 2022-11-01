@@ -12,6 +12,7 @@ import { FromComponent } from './from/from.component';
 import { ConcatmapComponent } from './concatmap/concatmap.component';
 import { AjaxComponent } from './ajax/ajax.component';
 import { DelayComponent } from './delay/delay.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { DelayComponent } from './delay/delay.component';
     ConcatmapComponent,
     AjaxComponent,
     DelayComponent,
+    ObservableComponent,
   ],
   imports: [
     BrowserModule
